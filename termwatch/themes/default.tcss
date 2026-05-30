@@ -1,0 +1,64 @@
+Screen {
+    background: #0b0f19;
+    color: #cbd5e1;
+}
+
+#topbar {
+    height: 3;
+    border: tall #06b6d4;
+    background: #111827;
+    color: #22d3ee;
+    text-style: bold;
+    content-align: center middle;
+    margin: 1 1 0 1;
+}
+
+#main {
+    height: 14; /* Tighten height so it feels compact like the image */
+    margin: 1 1 0 1;
+}
+
+#fetch {
+    width: 50%;
+    border: tall #3b82f6;
+    background: #111827;
+    padding: 1 2;
+}
+
+#right {
+    width: 50%;
+}
+
+#cpu, #memory, #network, #battery {
+    height: 3; /* Exact box height to frame progress indicators cleanly */
+    border: tall #06b6d4;
+    background: #111827;
+    padding: 0 2;
+    margin-left: 1;
+    margin-bottom: 0;
+    content-align: left middle;
+}
+
+/* Custom captainALN color schemes matching the reference grid */
+#cpu { border: tall #ec4899; color: #f472b6; }
+#memory { border: tall #a855f7; color: #c084fc; }
+#network { border: tall #10b981; color: #34d399; }
+#battery { border: tall #eab308; color: #facc15; }
+
+#bottom {
+    height: 5;
+    margin: 1 1 1 1;
+}
+
+#system, #hardware, #software, #local {
+    width: 1fr;
+    border: solid #4b5563;
+    background: #111827;
+    padding: 0 1;
+    margin-right: 1;
+    content-align: center middle;
+}
+
+#local {
+    margin-right: 0;
+}
