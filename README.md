@@ -16,6 +16,12 @@ It combines a fastfetch-style system overview with live telemetry widgets for CP
 
 ## Installation
 
+### Arch Linux (AUR)
+Use your favourite AUR helper
+```bash
+yay -S termwatch
+```
+
 ### From source
 
 ```bash
